@@ -1,0 +1,32 @@
+{
+    "schemaVersion": 1,
+    "id": "herbs-decorations",
+    "version": "${version}",
+    "name": "herb's decorations",
+    "description": "This is an example description! Tell everyone what your mod is about!",
+    "authors": "herb",
+    "contact": {
+        "homepage": "https://www.github.io/herb/",
+        "sources": "https://github.com/herb-chan/herb-s-decorations"
+    },
+    "license": "MIT",
+    "icon": "assets/herbs-decorations/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": ["herb.herbsdecorations.HerbsDecorations"],
+        "fabric-datagen": [
+            "herb.herbsdecorations.HerbsDecorationsDataGenerator"
+        ],
+        "client": ["herb.herbdecorations.HerbDecorationsClient"]
+    },
+    "mixins": ["herbs-decorations.mixins.json"],
+    "depends": {
+        "fabricloader": ">=0.15.11",
+        "minecraft": "~1.21.1",
+        "java": ">=21",
+        "fabric-api": "*"
+    },
+    "suggests": {
+        "another-mod": "*"
+    }
+}
