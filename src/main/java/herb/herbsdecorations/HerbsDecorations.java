@@ -1,5 +1,7 @@
 package herb.herbsdecorations;
 
+import herb.herbsdecorations.block.ModBlocks;
+import herb.herbsdecorations.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +13,7 @@ public class HerbsDecorations implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModBlocks.registerBlocks();
 	}
 }

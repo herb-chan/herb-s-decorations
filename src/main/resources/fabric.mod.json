@@ -4,7 +4,7 @@
     "version": "${version}",
     "name": "herb's decorations",
     "description": "This is an example description! Tell everyone what your mod is about!",
-    "authors": "herb",
+    "authors": ["herb"],
     "contact": {
         "homepage": "https://www.github.io/herb/",
         "sources": "https://github.com/herb-chan/herb-s-decorations"
@@ -17,7 +17,7 @@
         "fabric-datagen": [
             "herb.herbsdecorations.HerbsDecorationsDataGenerator"
         ],
-        "client": ["herb.herbdecorations.HerbDecorationsClient"]
+        "client": ["herb.herbsdecorations.HerbsDecorationsClient"]
     },
     "mixins": ["herbs-decorations.mixins.json"],
     "depends": {

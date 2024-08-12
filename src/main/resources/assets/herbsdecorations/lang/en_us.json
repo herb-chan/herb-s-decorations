@@ -1,0 +1,9 @@
+{
+  "item.herbsdecorations.label": "Label",
+  "item.herbsdecorations.catalogue": "Catalogue",
+
+  "block.herbsdecorations.jar": "Jar",
+  "block.herbsdecorations.species_jar": "Species Jar",
+  "block.herbsdecorations.species_jar_with_brown_mushroom": "Species Jar with Brown Mushroom",
+  "block.herbsdecorations.species_jar_with_red_mushroom": "Species Jar with Red Mushroom"
+}
